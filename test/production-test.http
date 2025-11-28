@@ -1,0 +1,8 @@
+POST https://iitm-tds-project-2-six.vercel.app/api
+Content-Type: application/json
+
+{
+  "email": "24f2007671@ds.study.iitm.ac.in",
+  "secret": "kanishk_secret",
+  "url": "https://tds-llm-analysis.s-anand.net/demo"
+}

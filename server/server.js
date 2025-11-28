@@ -30,6 +30,10 @@ app.post("/", async (req, res) => {
   }
 });
 
+app.get("/", async (req, res) => {
+  res.status(200).json({ message: "Use POST to submit quiz URL" });
+});
+
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => console.log(`Server running on ${PORT}`));
 
